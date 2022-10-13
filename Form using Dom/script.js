@@ -2,6 +2,8 @@
 // create a HTML form using DOM
 // firstname,middlename,lastname,phonenumber
 
+// https://lively-griffin-64b5c0.netlify.app/
+
 var firstname=createlabels("label","for","name","Firstname");
 var br=createlinebreak("br");
 var input=createinput("input","type","Firstname","id","name");
