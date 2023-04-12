@@ -1,6 +1,6 @@
 import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
 import LogoutIcon from '@mui/icons-material/Logout';
-import { Badge, Card, CardMedia, IconButton } from '@mui/material';
+import { Card, CardMedia, IconButton } from '@mui/material';
 import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { API } from './global';
