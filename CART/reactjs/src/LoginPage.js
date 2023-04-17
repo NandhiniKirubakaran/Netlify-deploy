@@ -47,7 +47,7 @@ export function LoginPage() {
         console.log("❌ Error");
         setFormState("error");
       } else {
-        const result = await data.json();
+        const result =  data.json();
         console.log("✅ Success", result);
         localStorage.setItem("token", result.token);
         navigate("/home-page");
